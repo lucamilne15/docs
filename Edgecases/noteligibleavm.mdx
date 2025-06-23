@@ -1,0 +1,24 @@
+---
+title: "Edgecase: Not Eligible for AVM"
+---
+
+<Note>
+  This occurs when the property does not meet Automated Valuation Model (AVM) eligibility criteria — typically when the Forecast Standard Deviation (FSD) is above tolerance.
+</Note>
+
+## Platform Action
+
+Triggers an AVM policy check.\
+Escalates to human if **FSD exceeds the acceptable threshold**.
+
+### Credit Operations – Next Steps
+
+- Order a **manual valuation** via ValX or another approved provider
+- **Update the LVR manually** in the platform once the valuation is received
+- If the revised LVR is within acceptable limits, continue through to **formal approval**, subject to all other checks
+
+## Example Situation
+
+An AVM attempt on a rural property returns an FSD of 0.35, exceeding the max threshold of 0.25.\
+The platform escalates the case.\
+Credit ops orders a manual valuation, receives a compliant result, updates the LVR to 77%, and moves the application to the next stage.

@@ -48,7 +48,7 @@
                 "icon": "dollar-sign",
                 "pages": [
                   "edgecases/loan-details/max-loan-size",
-                  "edgecases/loan-details/lvr-over-80",
+                  "edgecases/lvr-over-80",
                   "edgecases/loan-details/split-loan"
                 ]
               },

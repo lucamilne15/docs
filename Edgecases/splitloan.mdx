@@ -1,0 +1,29 @@
+---
+title: "Edgecase: Split Loan"
+---
+
+<Note>
+  This occurs when the applicant declares a split loan structure, such as fixed and variable components.
+</Note>
+
+## Platform Action
+
+Escalates based on declared split.
+
+### Credit Operations – Next Steps
+
+- Review all loan statements provided
+- **<Tooltip tip="">Manually calculate combined loan amount</Tooltip>**<Tooltip tip="">, including:</Tooltip>
+  - All split components
+  - One month’s repayment buffer for each split
+  - An additional \$1,500 buffer
+- If only one statement is provided but multiple splits are declared:
+  - Send a **"more information request"** to the applicant for the missing statements
+  - Once received, reassess and calculate manually as above
+
+## Example Situation
+
+An applicant selects a split loan with \$300,000 fixed and \$200,000 variable components.
+
+Only the fixed portion statement is provided. The system escalates the file.\
+Credit ops requests the missing variable loan statement, calculates combined loan exposure, adds repayment and buffer amounts, and continues processing.
