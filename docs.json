@@ -31,6 +31,60 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "Edgecases",
+            "pages": [
+              {
+                "group": "VOI",
+                "icon": "user-check",
+                "pages": [
+                  "edgecases/voi/non-pr-citizen",
+                  "edgecases/voi/applicant-over-55"
+                ]
+              },
+              {
+                "group": "Loan Details",
+                "icon": "dollar-sign",
+                "pages": [
+                  "edgecases/loan-details/max-loan-size",
+                  "edgecases/loan-details/lvr-over-80",
+                  "edgecases/loan-details/split-loan"
+                ]
+              },
+              {
+                "group": "Employment and Income Verification",
+                "icon": "briefcase",
+                "pages": [
+                  "edgecases/employment-income/outdated-payslips"
+                ]
+              },
+              {
+                "group": "Mortgage Statement Requirements",
+                "icon": "file-text",
+                "pages": [
+                  "edgecases/mortgage/missed-repayment",
+                  "edgecases/mortgage/high-interest"
+                ]
+              },
+              {
+                "group": "Property Type and Profile",
+                "icon": "home",
+                "pages": [
+                  "edgecases/property/excluded-postcode",
+                  "edgecases/property/not-eligible-avm"
+                ]
+              },
+              {
+                "group": "Credit Report",
+                "icon": "bar-chart",
+                "pages": [
+                  "edgecases/credit-report/bankruptcy",
+                  "edgecases/credit-report/default-last-12-months",
+                  "edgecases/credit-report/multiple-home-loans"
+                ]
+              }
+            ]
           }
         ]
       },
